@@ -1,0 +1,102 @@
+name: myapp
+description: A new Flutter application.
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# Read more about versioning at semver.org.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.0.0-dev.68.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^0.1.2
+  english_words: ^3.1.0
+  transparent_image: ^0.1.0
+  cached_network_image: ^0.5.1
+  contacts_service: ^0.1.1
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+# For information on the generic Dart part of this file, see the
+# following page: https://www.dartlang.org/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - images/ic_one.jpg
+    - images/space-wallpaper-(1)-by-twalls.jpg
+    - images/space-wallpaper-(2)-by-twalls.jpg
+    - images/space-wallpaper-(3)-by-twalls.jpg
+    - images/space-wallpaper-(4)-by-twalls.jpg
+    - images/space-wallpaper-(5)-by-twalls.jpg
+    - images/space-wallpaper-(6)-by-twalls.jpg
+    - images/space-wallpaper-(7)-by-twalls.jpg
+    - images/space-wallpaper-(8)-by-twalls.jpg
+    - images/space-wallpaper-(9)-by-twalls.jpg
+    - images/space-wallpaper-(10)-by-twalls.jpg
+    - images/space-wallpaper-(11)-by-twalls.jpg
+    - images/space-wallpaper-(12)-by-twalls.jpg
+    - images/space-wallpaper-(13)-by-twalls.jpg
+    - images/space-wallpaper-(14)-by-twalls.jpg
+    - images/space-wallpaper-(15)-by-twalls.jpg
+    - images/space-wallpaper-(16)-by-twalls.jpg
+    - images/space-wallpaper-(17)-by-twalls.jpg
+    - images/space-wallpaper-(18)-by-twalls.jpg
+    - images/space-wallpaper-(19)-by-twalls.jpg
+    - images/space-wallpaper-(20)-by-twalls.jpg
+    - images/space-wallpaper-(21)-by-twalls.jpg
+    - images/space-wallpaper-(22)-by-twalls.jpg
+    - images/space-wallpaper-(23)-by-twalls.jpg
+    - images/space-wallpaper-(24)-by-twalls.jpg
+    - images/space-wallpaper-(25)-by-twalls.jpg
+    - images/space-wallpaper-(26)-by-twalls.jpg
+    - images/space-wallpaper-(27)-by-twalls.jpg
+    - images/space-wallpaper-(28)-by-twalls.jpg
+    - images/space-wallpaper-(29)-by-twalls.jpg
+  #  - images/a_dot_ham.jpeg
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.io/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.io/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+     - family: Lora
+       fonts:
+        - asset: fonts/Lora-Italic.ttf
+     - family: Felipa
+       fonts:
+         - asset: fonts/Felipa-Regular.ttf
+     - family: OpenSans
+       fonts:
+         - asset: fonts/OpenSans-Bold.ttf
+         - weight: 700
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.io/custom-fonts/#from-packages
